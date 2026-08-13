@@ -1,0 +1,11 @@
+.git/
+.gitignore
+.assetsignore
+.dev.vars.example
+wrangler.jsonc
+worker.js
+functions/
+README.md
+CLOUDFLARE_DEPLOY.md
+build-pages.sh
+*.md
