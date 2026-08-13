@@ -2,6 +2,25 @@
 
 Lightweight static storefront for KIKA.U / Karya Perkasa Industries, deployed on Cloudflare Pages with Pages Functions for payment checkout.
 
+## Deployment
+
+This repository is prepared for Cloudflare Pages Git integration.
+
+Use these one-time settings when connecting the repository in Cloudflare:
+
+- Repository: `shukritobi/kika-u-carpentry`
+- Production branch: `main`
+- Framework preset: `None`
+- Build command: `bash ./build-pages.sh`
+- Build output directory: `dist`
+- Root directory: repository root
+
+After the Git integration is authorized, every push to `main` automatically publishes the production website. Pull-request / branch preview deployments can also be enabled in Cloudflare.
+
+The build script copies only the deployable static website into `dist`; Cloudflare discovers the server-side payment endpoints separately from `/functions`.
+
+Payment credentials must be stored as encrypted Cloudflare Pages secrets, never committed to GitHub. See `CLOUDFLARE_DEPLOY.md` and `.dev.vars.example`.
+
 ## Catalogue sources
 
 The 2026 catalogue content was extracted from the shared KIKA.U Canva catalogue. Public Instagram project imagery supplied in the project screenshots was cropped and compressed to WebP for the site.
