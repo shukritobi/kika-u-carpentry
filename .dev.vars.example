@@ -1,0 +1,20 @@
+# Copy to .dev.vars for local Cloudflare Pages development.
+# NEVER commit .dev.vars or real credentials.
+
+PAYMENT_PROVIDER=billplz
+PLATFORM_FEE_PERCENT=1
+PLATFORM_SPLIT_EMAIL=your-platform-billplz-email@example.com
+
+# Billplz sandbox first
+BILLPLZ_BASE_URL=https://www.billplz-sandbox.com
+BILLPLZ_SECRET_KEY=
+BILLPLZ_COLLECTION_ID=
+BILLPLZ_X_SIGNATURE_KEY=
+ADMIN_SETUP_TOKEN=
+
+# Optional Herepay fallback
+HEREPAY_BASE_URL=https://uat.herepay.org
+HEREPAY_API_KEY=
+HEREPAY_SECRET_KEY=
+HEREPAY_PRIVATE_KEY=
+ALLOW_HEREPAY_WITHOUT_SPLIT=false
