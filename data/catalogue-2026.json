@@ -1,0 +1,29 @@
+{
+  "source": "KIKA.U shared Canva productcatalogue, 2026 collection",
+  "extracted_at": "2026-08-13",
+  "verify_before_sale": true,
+  "models": [
+    {"id":"mobile-cart","name":"Mobile Cart","promo_price_rm":799,"normal_price_rm":1000,"online_checkout":true,"size":"Open 2ft(W) x 4ft(L) x 3ft(H); Closed 2ft(W) x 4ft(L) x 1ft(H)"},
+    {"id":"node-cart","name":"Node Cart","promo_price_rm":899,"normal_price_rm":1300,"online_checkout":true,"size":"Approx. 2ft(W) x 4ft(L) x 3ft(H)"},
+    {"id":"poplite","name":"PopLite","promo_price_rm":699,"normal_price_rm":899,"online_checkout":true,"size":"2ft(W) x 4ft(L) x 2.5ft(H)"},
+    {"id":"tanjak-go","name":"Tanjak Go","promo_price_rm":650,"normal_price_rm":799,"online_checkout":true,"size":"2ft(W) x 3ft(L) x 3ft(H)"},
+    {"id":"kaunter-go","name":"KaunterGo","catalogue_price_rm":799,"online_checkout":false},
+    {"id":"sampir-go","name":"SampirGo","catalogue_price_rm":699,"online_checkout":false}
+  ],
+  "custom_examples_rm": [1050,2100,1570,1750,1820,1300,2300,1350,1550,1550,1049,799,1199,1419],
+  "candy_wall": [
+    {"size":"4ft(H) x 3ft(W)","price_rm":400},
+    {"size":"5ft(H) x 3ft(W)","price_rm":500},
+    {"size":"6ft(H) x 3ft(W)","price_rm":600}
+  ],
+  "addons": [
+    ["Signage Pole 2 Sided","RM200"],["Side Table","RM250"],["Songkok Top","RM200"],["Word Lightbox","RM150"],
+    ["Signage Pole 1 Sided","RM200+"],["Front Shelf","RM100+"],["Scallop Top","RM350+"],["Bumbung I","RM200+"],
+    ["Frame LED","RM50"],["Bumbung II","RM250"],["Wirebox","RM350+"],["Logo Lightbox","RM350+"],
+    ["Signage Lightbox","RM100"],["QR & Menu Board","RM450"],["3D Detachable Logo","RM150"],["Scallop Signage","RM50"],
+    ["Knockbox","RM200"],["Full Body Sticker","RM200+"],["Brand Logo Sticker","RM400+"],["Sliding Door","RM100"],
+    ["Tanjak Top","RM200"],["Patio Umbrella","RM250+"],["1 Tier Side Wing","RM200+"],["Divider Shelf","RM200"]
+  ],
+  "basic_finish_start_rm": 250,
+  "premium_finish_start_rm": 400
+}
